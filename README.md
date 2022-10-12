@@ -12,8 +12,14 @@ The database schema is split into 3 tables:
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 
-2. House (addressID, personID, houseID)
+2. House
 | addressID | personID | houseID |
-| ------------- | ------------- | -------------|
+| ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  |
+
+3. Address
+| addressID | street | postal code |
+| ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  |
