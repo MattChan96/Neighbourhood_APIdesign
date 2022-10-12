@@ -8,7 +8,7 @@ The database schema is split into 3 tables:
 
 1. Person
 
-| personID | Second Header | First Header  | Second Header | 
+| personID | name | age  | household | 
 | ------------- | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
