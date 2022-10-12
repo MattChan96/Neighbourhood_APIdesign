@@ -4,7 +4,7 @@ The aim is to build a neighbourhood collaboration site with a system to track pe
 
 ## Database
 
-The database schema is split into 3 tables:
+The implemented type of database is SQL due to the data being structured and facilitating the maintenance of data integrity. The schema is split into 3 tables:
 
 1. Person
 
@@ -26,3 +26,4 @@ The database schema is split into 3 tables:
 | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  |
+
