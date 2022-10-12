@@ -7,13 +7,13 @@ The aim is to build a neighbourhood collaboration site with a system to track pe
 The database schema is split into 3 tables:
 
 1. Person
-| personID | name | age | household | 
+| personID | name | age  | household | 
 | ------------- | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 
-2. House (
+2. House (addressID, personID, houseID)
 | addressID | personID | houseID |
-| ------------- | ------------- | ------------- |
+| ------------- | ------------- | -------------|
 | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  |
