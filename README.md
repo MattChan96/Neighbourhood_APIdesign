@@ -29,4 +29,17 @@ The implemented type of database is SQL due to the data being structured and fac
 
 ## API
 
-Our API should be capable of handling both **GET** & **POST** requests. 
+Our API should be capable of handling both **GET** & **POST** requests.
+
+### GET
+
+**GET** requests should be a able to retrieve:
+  - House data via the route `/home/id`
+  - Person data (with specified queries) via the route `/people?age>0&age<100&household=x&limit=y`
+
+### POST
+
+**POST** requests should be a able to add:
+  - House data via the route `/houses`
+  - Address data via the route `/addresses`
+  - Person data via the route `/people`  
