@@ -27,3 +27,5 @@ The implemented type of database is SQL due to the data being structured and fac
 | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  |
 
+## API
+
