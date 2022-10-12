@@ -29,3 +29,4 @@ The implemented type of database is SQL due to the data being structured and fac
 
 ## API
 
+Our API should be capable of handling both **GET** & **POST** requests. 
