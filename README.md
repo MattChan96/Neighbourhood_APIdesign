@@ -37,9 +37,27 @@ Our API should be capable of handling both **GET** & **POST** requests.
   - House data via the route `/home/id`
   - Person data (with specified queries) via the route `/people?age>0&age<100&household=x&limit=y`
 
+**GET** responses should include:
+  - House data with the keys id, owner & address: `{
+    id:
+    owner:
+    address:
+}`
+  - Person data with the keys id, name, age, household: `[
+    {
+        id:
+        name:
+        age:
+        household:
+    },
+    ...
+]`
+
 ### POST
 
 **POST** requests should be a able to add:
   - House data via the route `/houses`
   - Address data via the route `/addresses`
   - Person data via the route `/people`  
+
+
