@@ -38,12 +38,12 @@ Our API should be capable of handling both **GET** & **POST** requests.
   - Person data (with specified queries) via the route `/people?age>0&age<100&household=x&limit=y`
 
 **GET** responses should include:
-  - House data with the keys id, owner & address: `{
+  - House data with the keys id, owner & address returning an object such as `{
     id:
     owner:
     address:
 }`
-  - Person data with the keys id, name, age, household: `[
+  - Person data with the keys id, name, age, household returning an array such as: `[
     {
         id:
         name:
